@@ -1,0 +1,29 @@
+{
+  "name": "decorators",
+  "version": "1.0.0",
+  "description": "基于 vue-class-component 的自定义装饰器",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojowork/decorators.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojowork/decorators/issues"
+  },
+  "homepage": "https://github.com/mojowork/decorators#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "vue": "2.6.14",
+    "vue-class-component": "^7.2.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
